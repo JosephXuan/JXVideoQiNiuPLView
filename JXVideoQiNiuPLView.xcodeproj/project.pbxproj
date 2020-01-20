@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B841DE7623532EC6004240A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DE7523532EC6004240A7 /* AppDelegate.m */; };
-		B841DE7923532EC6004240A7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DE7823532EC6004240A7 /* SceneDelegate.m */; };
 		B841DE7C23532EC6004240A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DE7B23532EC6004240A7 /* ViewController.m */; };
 		B841DE7F23532EC6004240A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B841DE7D23532EC6004240A7 /* Main.storyboard */; };
 		B841DE8123532EC7004240A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B841DE8023532EC7004240A7 /* Assets.xcassets */; };
@@ -16,6 +15,9 @@
 		B841DE8723532EC7004240A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DE8623532EC7004240A7 /* main.m */; };
 		B841DE9123532EC7004240A7 /* JXVideoQiNiuPLViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DE9023532EC7004240A7 /* JXVideoQiNiuPLViewTests.m */; };
 		B841DE9C23532EC7004240A7 /* JXVideoQiNiuPLViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DE9B23532EC7004240A7 /* JXVideoQiNiuPLViewUITests.m */; };
+		B8E50F5D23D586DB00C3DE56 /* JXVideoQiNiuPLDataCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E50F5C23D586DB00C3DE56 /* JXVideoQiNiuPLDataCtrl.m */; };
+		B8E50F6023D586E700C3DE56 /* JXVideoQiNiuPLUICtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E50F5F23D586E700C3DE56 /* JXVideoQiNiuPLUICtrl.m */; };
+		B8E50F6323D586F200C3DE56 /* JXVideoQiNiuPLPageCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E50F6223D586F200C3DE56 /* JXVideoQiNiuPLPageCtrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		B841DE7123532EC6004240A7 /* JXVideoQiNiuPLView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXVideoQiNiuPLView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841DE7423532EC6004240A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B841DE7523532EC6004240A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B841DE7723532EC6004240A7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		B841DE7823532EC6004240A7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		B841DE7A23532EC6004240A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B841DE7B23532EC6004240A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B841DE7E23532EC6004240A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,12 @@
 		B841DE9723532EC7004240A7 /* JXVideoQiNiuPLViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXVideoQiNiuPLViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841DE9B23532EC7004240A7 /* JXVideoQiNiuPLViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoQiNiuPLViewUITests.m; sourceTree = "<group>"; };
 		B841DE9D23532EC7004240A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E50F5B23D586DB00C3DE56 /* JXVideoQiNiuPLDataCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXVideoQiNiuPLDataCtrl.h; sourceTree = "<group>"; };
+		B8E50F5C23D586DB00C3DE56 /* JXVideoQiNiuPLDataCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoQiNiuPLDataCtrl.m; sourceTree = "<group>"; };
+		B8E50F5E23D586E700C3DE56 /* JXVideoQiNiuPLUICtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXVideoQiNiuPLUICtrl.h; sourceTree = "<group>"; };
+		B8E50F5F23D586E700C3DE56 /* JXVideoQiNiuPLUICtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoQiNiuPLUICtrl.m; sourceTree = "<group>"; };
+		B8E50F6123D586F200C3DE56 /* JXVideoQiNiuPLPageCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXVideoQiNiuPLPageCtrl.h; sourceTree = "<group>"; };
+		B8E50F6223D586F200C3DE56 /* JXVideoQiNiuPLPageCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoQiNiuPLPageCtrl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +112,11 @@
 			children = (
 				B841DE7423532EC6004240A7 /* AppDelegate.h */,
 				B841DE7523532EC6004240A7 /* AppDelegate.m */,
-				B841DE7723532EC6004240A7 /* SceneDelegate.h */,
-				B841DE7823532EC6004240A7 /* SceneDelegate.m */,
 				B841DE7A23532EC6004240A7 /* ViewController.h */,
 				B841DE7B23532EC6004240A7 /* ViewController.m */,
+				B8E50F5A23D5869D00C3DE56 /* ModelData */,
+				B8E50F5923D5869A00C3DE56 /* ViewUI */,
+				B8E50F5823D5869600C3DE56 /* Ctrl */,
 				B841DE7D23532EC6004240A7 /* Main.storyboard */,
 				B841DE8023532EC7004240A7 /* Assets.xcassets */,
 				B841DE8223532EC7004240A7 /* LaunchScreen.storyboard */,
@@ -135,6 +142,33 @@
 				B841DE9D23532EC7004240A7 /* Info.plist */,
 			);
 			path = JXVideoQiNiuPLViewUITests;
+			sourceTree = "<group>";
+		};
+		B8E50F5823D5869600C3DE56 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50F6123D586F200C3DE56 /* JXVideoQiNiuPLPageCtrl.h */,
+				B8E50F6223D586F200C3DE56 /* JXVideoQiNiuPLPageCtrl.m */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		B8E50F5923D5869A00C3DE56 /* ViewUI */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50F5E23D586E700C3DE56 /* JXVideoQiNiuPLUICtrl.h */,
+				B8E50F5F23D586E700C3DE56 /* JXVideoQiNiuPLUICtrl.m */,
+			);
+			path = ViewUI;
+			sourceTree = "<group>";
+		};
+		B8E50F5A23D5869D00C3DE56 /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50F5B23D586DB00C3DE56 /* JXVideoQiNiuPLDataCtrl.h */,
+				B8E50F5C23D586DB00C3DE56 /* JXVideoQiNiuPLDataCtrl.m */,
+			);
+			path = ModelData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B841DE7C23532EC6004240A7 /* ViewController.m in Sources */,
+				B8E50F5D23D586DB00C3DE56 /* JXVideoQiNiuPLDataCtrl.m in Sources */,
+				B8E50F6323D586F200C3DE56 /* JXVideoQiNiuPLPageCtrl.m in Sources */,
+				B8E50F6023D586E700C3DE56 /* JXVideoQiNiuPLUICtrl.m in Sources */,
 				B841DE7623532EC6004240A7 /* AppDelegate.m in Sources */,
 				B841DE8723532EC7004240A7 /* main.m in Sources */,
-				B841DE7923532EC6004240A7 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

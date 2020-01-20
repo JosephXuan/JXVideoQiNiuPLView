@@ -14,7 +14,10 @@
 
 @implementation AppDelegate
 
-
+/*
+ https://developer.qiniu.com/pili/sdk/1211/ios-playback-end-the-sdk?ref=www.qiniu.com
+ https://github.com/pili-engineering/PLPlayerKit
+ */
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
