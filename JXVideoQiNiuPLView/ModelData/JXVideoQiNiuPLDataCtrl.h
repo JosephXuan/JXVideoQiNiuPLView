@@ -6,11 +6,14 @@
 //  Copyright © 2020 JosephXuan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JXVideoQiNiuPLUICtrl.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JXVideoQiNiuPLDataCtrl : UIViewController
+@interface JXVideoQiNiuPLDataCtrl : JXVideoQiNiuPLUICtrl
+
+///赋值url
+@property (nonatomic, strong) NSString *urlModelStr;
 
 @end
 
